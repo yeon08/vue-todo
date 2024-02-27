@@ -42,6 +42,11 @@ function deleteItem(id) {
   // splice(시작위치, 삭제개수)
   data.items.splice(idx, 1);
 }
+
+function test() {
+  console.log('8');
+}
+test();
 </script>
 
 <template>
@@ -105,7 +110,7 @@ function deleteItem(id) {
 }
 .todo_add input[type='text'] {
   width: calc(100% - 60px);
-  border: 1px solid #eee;
+  border: 1px solid #ddd;
   border-radius: 4px;
 }
 .add_btn {
