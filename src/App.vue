@@ -105,7 +105,7 @@ function deleteItem(id) {
 }
 .todo_add input[type='text'] {
   width: calc(100% - 60px);
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
   border-radius: 4px;
 }
 .add_btn {
